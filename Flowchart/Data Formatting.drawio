@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" modified="2024-04-07T15:04:21.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="X2_4C1zDizaI7pGWimJo" version="24.2.2" type="device">
+  <diagram name="Page-1" id="LsG1m6To6uv8DDvxnQWS">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="GET http://localhost:8080/tienda1/index.jsp HTTP/1.1&lt;br&gt;User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.8 (like Gecko)&lt;br&gt;Pragma: no-cache&lt;br&gt;Cache-control: no-cache&lt;br&gt;Accept:text/xml,application/xml,application/xhtml+xml,text/&lt;div&gt;html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5&lt;br&gt;Accept-Encoding: x-gzip, x-deflate, gzip, deflate&lt;br&gt;Accept-Charset: utf-8, utf-8;q=0.5, *;q=0.5&lt;br&gt;Accept-Language: en&lt;br&gt;Host: localhost:8080&lt;br&gt;Cookie: JSESSIONID=EA414B3E327DED6875848530C864BD8F&lt;br&gt;Connection: close&lt;/div&gt;" link="GET http://localhost:8080/tienda1/index.jsp HTTP/1.1&#xa;User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.8 (like Gecko)&#xa;Pragma: no-cache&#xa;Cache-control: no-cache&#xa;Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5&#xa;Accept-Encoding: x-gzip, x-deflate, gzip, deflate&#xa;Accept-Charset: utf-8, utf-8;q=0.5, *;q=0.5&#xa;Accept-Language: en&#xa;Host: localhost:8080&#xa;Cookie: JSESSIONID=EA414B3E327DED6875848530C864BD8F&#xa;Connection: close" id="-5zh_9gpbMgqD2Ojak6a-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+            <mxGeometry x="70" y="90" width="320" height="220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GET http://localhost:8080/tienda1/index.jsp HTTP/1.1" link="GET http://localhost:8080/tienda1/index.jsp HTTP/1.1" id="-5zh_9gpbMgqD2Ojak6a-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="510" y="130" width="300" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-3" value="Text File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-4" value="Text File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-5" value="[&lt;div&gt;GET http://localhost:8080/tienda1/index.jsp HTTP/1.1&lt;div&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-6" value="List" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-5zh_9gpbMgqD2Ojak6a-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zh_9gpbMgqD2Ojak6a-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-5zh_9gpbMgqD2Ojak6a-2" target="-5zh_9gpbMgqD2Ojak6a-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="370" as="sourcePoint" />
+            <mxPoint x="770" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
